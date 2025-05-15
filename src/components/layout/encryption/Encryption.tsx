@@ -139,11 +139,12 @@ const Encryption: FC<IEncrypData> = ({ encryp }) => {
                             <UiButton onClick={() => setUplet(!upLet)} icon={<BiUpvote style={{ fontSize: upLet ? '20px' : '16px' }} />} />
 
                         </div>
-                        <UiButton onClick={() => {
-                            form.resetFields()
-                            setResultText('')
-                        }}>Tazalaw</UiButton>
+
                     </div>
+                    <UiButton onClick={() => {
+                        form.resetFields()
+                        setResultText('')
+                    }}>Tazalaw</UiButton>
                 </div>
             </div>
         </Container>
