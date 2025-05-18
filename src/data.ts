@@ -162,7 +162,17 @@ export const dataKk: IDataKk[] = [
     },
     {
         index: 31,
+        upperLetter: 'Sh',
+        lowerLetter: 'sh'
+    },
+    {
+        index: 32,
         upperLetter: 'C',
         lowerLetter: 'c'
+    },
+    {
+        index: 33,
+        upperLetter: 'Ch',
+        lowerLetter: 'ch'
     }
 ]

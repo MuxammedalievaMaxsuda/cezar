@@ -14,7 +14,7 @@ const Header: FC<IHeaderData> = ({ onChangeEncryp }) => {
             <Container>
                 <div className={styles.header_inner}>
                     <div className={styles.logo}>
-                        <h1>Cezar</h1>
+                        <h1>Cezar usılı</h1>
                         <p>Qaraqalpaq tili ushın</p>
                     </div>
                     <UiButton
